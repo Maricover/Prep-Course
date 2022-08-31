@@ -36,7 +36,7 @@ function agregarStringInvertida() {
   // El método debe llamarse "reverse"
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
-  // Pista: Necesitarás usar "this" dentro de "reverse"
+  // Pista: Necesitarás usar "this" dentro de "reverse"t
   String.prototype.reverse = function () {
   var palabrainvertida = "";
   for (var i = this.length -1; i >= 0; i --){
